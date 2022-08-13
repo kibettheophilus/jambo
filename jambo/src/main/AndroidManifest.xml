@@ -7,16 +7,9 @@
         android:supportsRtl="true" >
         <activity
             android:name="com.tabasumu.jambo.ui.JamboActivity"
-            android:exported="true"
             android:label="Jambo"
-            android:icon="@mipmap/jambo_launcher"
-            android:roundIcon="@mipmap/jambo_launcher_round"
+            android:launchMode="singleTask"
             android:theme="@style/Theme.Jambo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
-
 </manifest>
